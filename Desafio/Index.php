@@ -14,7 +14,7 @@
     <title>Hospital do Povo</title>
 </head>
 <body>
-    <a href="Principal.php" id="bot" class="btn btn-dark ">Login</a>
+    <a href="Login.php" id="bot" class="btn btn-dark ">Login</a>
     <div class="d-flex quadrado ">
         <button id="ant" class="btn btn-dark mt-3"><i class="bi-arrow-left"></i></button>
         <button id="prox" class="btn btn-dark mt-3"><i class="bi-arrow-right"></i></button>
