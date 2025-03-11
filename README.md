@@ -12,7 +12,7 @@ A Abstração permite representar objetos do mundo real de forma simplificada, f
 
 O desafio consiste em criar 7 funcionarios, encapsular informações e herdalas de outras classes.
 
-<img height="230px" src="https://github.com/user-attachments/assets/1729a871-ce38-4735-8578-3720b4bc4a29"></img>
+<img height="230px" src="https://github.com/user-attachments/assets/16f16ae3-4361-4b88-b4f8-2f6720f1621c"></img>
 <img height="230px" src="https://github.com/user-attachments/assets/a9dab92d-2b44-433d-8578-31fbbfe15e8a"></img>
 
 Caso queira ver o funcionamento dos botões acesse a pasta <a href="https://github.com/GustavoRSenai/POO_GustavoR/tree/main/Desafio">Desafio</a>
