@@ -38,6 +38,7 @@ body{
     height: 50px;
     cursor: pointer;
     z-index: 4;
+    border: solid 5px rgba(128, 128, 128, 0.411);
 }
 #ant{
     left: 10px;
@@ -50,4 +51,14 @@ body{
 }
 .ativo{
     display: block;
+}
+#bot{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: solid 5px rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+
 }

@@ -14,9 +14,10 @@
     <title>Hospital do Povo</title>
 </head>
 <body>
+    <a href="Principal.php" id="bot" class="btn btn-dark ">Login</a>
     <div class="d-flex quadrado ">
-        <button id="ant" class="btn btn-dark custom-button mt-3"><i class="bi-arrow-left"></i></button>
-        <button id="prox" class="btn btn-dark custom-button mt-3"><i class="bi-arrow-right"></i></button>
+        <button id="ant" class="btn btn-dark mt-3"><i class="bi-arrow-left"></i></button>
+        <button id="prox" class="btn btn-dark mt-3"><i class="bi-arrow-right"></i></button>
         <div class="item ativo">
             <h1 class="text-center">Lista de Funcionários</h1>
             <table class="table table-primary mt-3 table-hover table-bordered border-primary">
