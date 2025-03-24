@@ -62,3 +62,29 @@ body{
     border-radius: 5px;
 
 }
+.custom-h1{
+    color: #404040;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.484);
+}
+span{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.404);
+}
+.custom-label{
+    color: #22403A;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.484);
+}
+.custom-input{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.404);
+}
+.custom-container{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.701);
+}
+#bot{
+    background-color: #404040;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.484);
+}
+.custom-div{
+    margin-top: 40px;
+}
