@@ -15,5 +15,9 @@ $aluno = [
 ];
 $aluno["estudar"]();
 
+<<<<<<< HEAD
 $aluno["apresentar"]();
 ?>
+=======
+$aluno["apresentar"]();
+>>>>>>> 3b1cddbb1a96b0b041c3fd86b67aaa9f40b101d2
