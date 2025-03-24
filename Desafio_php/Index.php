@@ -18,7 +18,7 @@ class Pessoa {
 class Aluno extends Pessoa{
 
     public function Falar(){
-        echo "olá sou {$this->nome}, tenho {$this->idade} anos e estudo no senai meu RM é {$this->verRM()}
+        echo "Olá sou {$this->nome}, tenho {$this->idade} anos e estudo no senai meu RM é {$this->verRM()}
         <br>";
     }
 
@@ -26,21 +26,21 @@ class Aluno extends Pessoa{
 }
 class Professor extends Pessoa{
     public function Falar(){
-        echo "olá sou {$this->nome}, tenho {$this->idade} anos e trabalho no senai como professor
+        echo "Olá sou {$this->nome}, tenho {$this->idade} anos e trabalho no senai como professor
         <br>";
     }
 
 }
 class Secretaria extends Pessoa{
     public function Falar(){
-        echo "olá sou {$this->nome}, tenho {$this->idade} anos e trabalho no senai como secretaria
+        echo "Olá sou {$this->nome}, tenho {$this->idade} anos e trabalho no senai como secretaria
         <br>";
     }
 
 }
 class Diretor extends Pessoa{
     public function Falar(){
-        echo "olá sou {$this->nome}, tenho {$this->idade} anos e sou diretor do senai
+        echo "Olá sou {$this->nome}, tenho {$this->idade} anos e sou diretor do senai
         <br>";
     }
 
@@ -52,7 +52,7 @@ $pedro = new Professor ("Pedro", 25, 0);
 $Clara = new Professor ("Clara", 32, 0);
 $Fatima = new Secretaria ("Fátima", 45, 0);
 $Sueli = new Secretaria ("Sueli", 30, 0);
-$Clóvis = new Professor ("Clóvis", 56, 0);
+$Clóvis = new Diretor ("Clóvis", 56, 0);
 
 ?>
 
@@ -72,23 +72,62 @@ $Clóvis = new Professor ("Clóvis", 56, 0);
     <title>Desafio php</title>
 </head>
 <body>
-<p>
-    <?php $gutin->Falar(); ?>
-    <?php $miguel->Falar(); ?>
-</p>
-
-<p>
-    <?php $Clara->Falar(); ?>
-    <?php $pedro->Falar(); ?>
-</p>
-
-<p>
-    <?php $Fatima->Falar(); ?>
-    <?php $Sueli->Falar(); ?>
-</p>
-
-<p>
-    <?php $Clóvis->Falar(); ?>
-</p>
+<div class="container mt-3">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Alunos</h5>
+            <p class="card-text">                 
+                <?php 
+                    $gutin->Falar(); 
+                    $miguel->Falar(); 
+                ?>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Professores</h5>
+            <p class="card-text">
+                <?php 
+                    $pedro->Falar(); 
+                    $Clara->Falar(); 
+                ?>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Secretárias</h5>
+            <p class="card-text">                 
+                <?php 
+                    $Fatima->Falar(); 
+                    $Sueli->Falar(); 
+                ?>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Diretor</h5>
+            <p class="card-text">
+            <?php 
+                    $Clóvis->Falar(); 
+                ?>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 </body>
 </html>
